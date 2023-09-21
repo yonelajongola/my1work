@@ -1,0 +1,120 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-size: cover;
+  background-attachment: fixed;
+}
+h1 {
+  color:       #6e6868;
+  font-size:   24px;
+  font-weight: 100;
+  margin:      0;
+  line-height: 28px;
+}
+
+button {
+  margin-left: 5px;
+  position: relative;
+  top: 1px;
+}
+
+input[type="text"] {
+  border-radius: 25px 20px 0px;
+  border:        none;
+  box-shadow:    0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  height:        44px;
+  outline:       10;
+  padding:       0px;
+  width:         200px;
+}
+
+.btn {
+  border-radius: 24px;
+  color: #fff;
+  height: 40px;
+}
+
+.weather-summary {
+  padding-bottom: 20px;
+}
+
+.weather-summary-header {
+  padding-bottom: 20px;
+}
+
+.weather-detail__text {
+  color:       #ada9a9;
+  font-size:   16px;
+  font-weight: 100;
+  line-height: 20px;
+}
+
+.weather-container {
+  box-shadow: 0 2px 2px 0 rgba(220, 42, 42, 0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  margin:     20px 0;
+  max-width:  730px;
+  padding:    20px 16px 24px 16px;
+  background-color: rgb(172, 106, 117);
+ 
+
+  
+}
+
+.weather__icon {
+  float: left;
+}
+
+.weather__icon--today {
+  float: left;
+  height: 90px;
+  width: 90px;
+}
+
+.weather-unit__text--today {
+  color:       #333;
+  float:       left;
+  font-size:   16px;
+  line-height: 1.5;
+}
+
+.weather-unit__text-separator {
+  float:       left;
+  font-size:   16px;
+  line-height: 1.5;
+  padding:     0 5px;
+}
+
+.weather-temp--today {
+  color:        #333;
+  float:        left;
+  font-size:    64px;
+  font-weight:  400;
+  line-height:  1;
+  padding-left: 10px;
+}
+
+.weather-view-buttons {
+  padding: 15px 0 10px;
+  display: block;
+}
+.weather-view__button--selected {
+  background-color: linear-gradient(top,#eee,#e0e0e0);
+  background:       #eee;
+  border-color:     #ccc;
+}
+
+.weather-view__button--selected:hover {
+  border-color:     #c6c6c6;
+  box-shadow:       0 1px 1px rgba(0,0,0,0.1);
+  text-decoration:  none;
+  background-color: linear-gradient(top,#f8f8f8,#f1f1f1);
+}
+
+.weather-view__button--temp {
+  border-radius: 2px 0 0 2px;
+  border-right:  none;
+}
+
+.weather-view__button--wind {
+  border-left:   none;
+  border-radius: 0 2px 2px 0;
+}
